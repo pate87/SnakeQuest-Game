@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Poetry and dependency lock files (optional, depending on your workflow)
+poetry.lock
+uv.lock
+
+# Ignore Replit configuration
+replit.nix
+.replit
+
+# Optionally, ignore any generated assets like icons (unless needed)
+generated-icon.png
+pyproject.toml
+main.spec
+dist/
+build/
